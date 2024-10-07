@@ -33,7 +33,7 @@ body {
 }
 
 .nav-logo-studio {
-    color: #434455;
+    color: #2e2f42;
 }
 
 .nav-list {
@@ -41,11 +41,11 @@ body {
 }
 
 .nav-link {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
     text-decoration: none;
 }
 
@@ -76,12 +76,12 @@ body {
 }
 
 .hero {
-    background-color: #434455;
+    background-color: #2e2f42;
 }
 
 .hero-title {
     font-size: 56px;
-    line-height: 1.5;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
@@ -90,7 +90,7 @@ body {
 .hero-button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -108,11 +108,11 @@ body {
 }
 
 .advantages-title {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 
 .advantages-description {
@@ -132,7 +132,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #434455;
+    color: #2e2f42;
 }
 
 .team-list {
@@ -144,11 +144,11 @@ body {
 }
 
 .team-name {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
     text-align: center;
 }
 
@@ -165,11 +165,11 @@ body {
 }
 
 .portfolio-title {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 
 .portfolio-category {
@@ -180,7 +180,7 @@ body {
 }
 
 .footer {
-    background-color: #434455;
+    background-color: #2e2f42;
 }
 
 .footer-logo {
