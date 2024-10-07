@@ -1,9 +1,15 @@
+
+/* General styles */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
 }
 
+/* Hidden elements for accessibility */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -17,8 +23,13 @@ body {
     overflow: hidden;
 }
 
+/* Header and navigation styles */
 .header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-logo {
@@ -38,6 +49,8 @@ body {
 
 .nav-list {
     list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
 .nav-link {
@@ -54,12 +67,15 @@ body {
     color: #404bbf;
 }
 
+/* Address and contact styles */
 .address {
     font-style: normal;
 }
 
 .contact-list {
     list-style: none;
+    display: flex;
+    gap: 10px;
 }
 
 .contact-link {
@@ -75,16 +91,19 @@ body {
     color: #404bbf;
 }
 
+/* Hero section styles */
 .hero {
     background-color: #2e2f42;
+    padding: 100px 20px;
+    text-align: center;
 }
 
 .hero-title {
     font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .hero-button {
@@ -95,7 +114,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    padding: 10px 20px;
+    border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .hero-button:hover,
@@ -103,8 +125,23 @@ body {
     background-color: #404BBF;
 }
 
+/* Advantages section styles */
+.advantages {
+    padding: 60px 20px;
+    background-color: #F4F4FD;
+    text-align: center;
+}
+
 .advantages-list {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.advantages-item {
+    max-width: 300px;
 }
 
 .advantages-title {
@@ -113,6 +150,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 10px;
 }
 
 .advantages-description {
@@ -122,25 +160,48 @@ body {
     color: #434455;
 }
 
+/* Team section styles */
 .team {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
+    padding: 50px 20px;
 }
 
 .section-title {
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 40px;
 }
 
 .team-list {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .team-item {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
+    padding: 20px;
+    text-align: center;
+    max-width: 220px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-item:hover {
+    transform: scale(1.05);
+}
+
+.team-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 .team-name {
@@ -149,7 +210,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
 }
 
 .team-role {
@@ -157,11 +217,37 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+/* Portfolio section styles */
+.portfolio {
+    padding: 60px 20px;
+    background-color: #FFFFFF;
     text-align: center;
 }
 
 .portfolio-list {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.portfolio-item {
+    max-width: 300px;
+}
+
+.portfolio-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-img:hover {
+    transform: scale(1.05);
 }
 
 .portfolio-title {
@@ -170,6 +256,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 5px;
 }
 
 .portfolio-category {
@@ -179,8 +266,11 @@ body {
     color: #434455;
 }
 
+/* Footer styles */
 .footer {
     background-color: #2e2f42;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .footer-logo {
@@ -199,13 +289,9 @@ body {
 }
 
 .footer-text {
+    font-size: 16px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
-}
-
-.team-img,
-.portfolio-img {
-    max-width: 100%;
-    height: auto;
+    margin-top: 10px;
 }
