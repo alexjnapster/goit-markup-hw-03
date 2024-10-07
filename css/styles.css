@@ -5,6 +5,8 @@ body {
     font-size: initial;
     font-weight: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -19,6 +21,8 @@ body {
     font-weight: initial;
     color: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -28,6 +32,8 @@ body {
     font-weight: initial;
     color: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -39,6 +45,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    text-align: initial;
 }
 }
 
@@ -48,6 +55,8 @@ body {
     font-size: initial;
     font-weight: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -58,6 +67,8 @@ body {
     font-weight: initial;
     color: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -68,6 +79,8 @@ body {
     color: #2e2f42;
     text-decoration: none;
     font-family: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -78,6 +91,8 @@ body {
     font-size: initial;
     font-weight: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -88,6 +103,8 @@ body {
     font-weight: initial;
     color: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -98,6 +115,8 @@ body {
     font-weight: initial;
     color: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -108,6 +127,8 @@ body {
     text-decoration: none;
     font-family: initial;
     font-weight: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -118,6 +139,8 @@ body {
     font-size: initial;
     font-weight: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -127,6 +150,8 @@ body {
     font-size: initial;
     font-weight: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -137,6 +162,7 @@ body {
     color: #ffffff;
     font-family: initial;
     font-weight: initial;
+    text-transform: initial;
 }
 }
 
@@ -148,6 +174,8 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -158,6 +186,8 @@ body {
     font-size: initial;
     font-weight: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -168,6 +198,8 @@ body {
     font-weight: initial;
     color: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -177,6 +209,8 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-family: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -186,6 +220,8 @@ body {
     color: #434455;
     font-family: initial;
     font-weight: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -195,6 +231,8 @@ body {
     font-size: initial;
     font-weight: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -216,6 +254,8 @@ body {
     font-weight: initial;
     color: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -225,6 +265,8 @@ body {
     font-size: initial;
     font-weight: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -235,6 +277,7 @@ body {
     color: #2e2f42;
     text-align: center;
     font-family: initial;
+    text-transform: initial;
 }
 }
 
@@ -245,6 +288,7 @@ body {
     text-align: center;
     font-family: initial;
     font-weight: initial;
+    text-transform: initial;
 }
 }
 
@@ -255,6 +299,8 @@ body {
     font-weight: initial;
     color: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -264,6 +310,8 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-family: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -273,6 +321,8 @@ body {
     color: #434455;
     font-family: initial;
     font-weight: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -282,6 +332,8 @@ body {
     font-size: initial;
     font-weight: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -293,6 +345,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    text-align: initial;
 }
 }
 
@@ -302,6 +355,8 @@ body {
     font-size: initial;
     font-weight: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -311,6 +366,8 @@ body {
     font-family: initial;
     font-size: initial;
     font-weight: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
 
@@ -321,5 +378,7 @@ body {
     font-weight: initial;
     color: initial;
     letter-spacing: initial;
+    text-align: initial;
+    text-transform: initial;
 }
 }
