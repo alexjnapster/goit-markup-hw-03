@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./styles_full_validated.css">
+    <link rel="stylesheet" href="./styles_full_validated_v3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -38,18 +38,23 @@
         </section>
 
         <section class="advantages">
+            <h2 class="visually-hidden">Our Advantages</h2>
             <ul class="advantages-list">
-                <li>
-                    <h2 class="advantages-title">Quality</h2>
-                    <p class="advantages-description">We provide high-quality services to all our customers.</p>
+                <li class="advantages-item">
+                    <h3 class="advantages-title">Strategy</h3>
+                    <p class="advantages-description">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
                 </li>
-                <li>
-                    <h2 class="advantages-title">Efficiency</h2>
-                    <p class="advantages-description">Our team is highly efficient, ensuring fast results.</p>
+                <li class="advantages-item">
+                    <h3 class="advantages-title">Punctuality</h3>
+                    <p class="advantages-description">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                 </li>
-                <li>
-                    <h2 class="advantages-title">Support</h2>
-                    <p class="advantages-description">We offer round-the-clock support to meet your needs.</p>
+                <li class="advantages-item">
+                    <h3 class="advantages-title">Diligence</h3>
+                    <p class="advantages-description">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                </li>
+                <li class="advantages-item">
+                    <h3 class="advantages-title">Technologies</h3>
+                    <p class="advantages-description">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
         </section>
@@ -58,19 +63,32 @@
             <h2 class="section-title">Our Team</h2>
             <ul class="team-list">
                 <li class="team-item">
-                    <img src="./images/team1.jpg" alt="John Doe - CEO" class="team-img">
-                    <h3 class="team-name">John Doe</h3>
-                    <p class="team-role">CEO</p>
+                    <img src="./images/mark-guerrero.jpg" alt="Mark Guerrero" class="team-img">
+                    <div class="team-info">
+                        <h3 class="team-name">Mark Guerrero</h3>
+                        <p class="team-role">Product Designer</p>
+                    </div>
                 </li>
                 <li class="team-item">
-                    <img src="./images/team2.jpg" alt="Jane Smith - Designer" class="team-img">
-                    <h3 class="team-name">Jane Smith</h3>
-                    <p class="team-role">Designer</p>
+                    <img src="./images/tom-ford.jpg" alt="Tom Ford" class="team-img">
+                    <div class="team-info">
+                        <h3 class="team-name">Tom Ford</h3>
+                        <p class="team-role">Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="team-item">
-                    <img src="./images/team3.jpg" alt="Mike Johnson - Developer" class="team-img">
-                    <h3 class="team-name">Mike Johnson</h3>
-                    <p class="team-role">Developer</p>
+                    <img src="./images/camila-garcia.jpg" alt="Camila Garcia" class="team-img">
+                    <div class="team-info">
+                        <h3 class="team-name">Camila Garcia</h3>
+                        <p class="team-role">Marketing</p>
+                    </div>
+                </li>
+                <li class="team-item">
+                    <img src="./images/daniel-wilson.jpg" alt="Daniel Wilson" class="team-img">
+                    <div class="team-info">
+                        <h3 class="team-name">Daniel Wilson</h3>
+                        <p class="team-role">UI Designer</p>
+                    </div>
                 </li>
             </ul>
         </section>
@@ -78,20 +96,47 @@
         <section class="portfolio">
             <h2 class="section-title">Our Portfolio</h2>
             <ul class="portfolio-list">
-                <li>
-                    <img src="./images/portfolio1.jpg" alt="Project A" class="portfolio-img">
-                    <h3 class="portfolio-title">Project A</h3>
-                    <p class="portfolio-category">Web Development</p>
+                <li class="portfolio-item">
+                    <img src="./images/banking-app.jpg" alt="Banking App" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Banking App</h3>
+                        <p class="portfolio-category">App</p>
+                    </div>
                 </li>
-                <li>
-                    <img src="./images/portfolio2.jpg" alt="Project B" class="portfolio-img">
-                    <h3 class="portfolio-title">Project B</h3>
-                    <p class="portfolio-category">Graphic Design</p>
+                <li class="portfolio-item">
+                    <img src="./images/cashless-payment.jpg" alt="Cashless Payment" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Cashless Payment</h3>
+                        <p class="portfolio-category">Marketing</p>
+                    </div>
                 </li>
-                <li>
-                    <img src="./images/portfolio3.jpg" alt="Project C" class="portfolio-img">
-                    <h3 class="portfolio-title">Project C</h3>
-                    <p class="portfolio-category">Marketing</p>
+                <li class="portfolio-item">
+                    <img src="./images/meditation-app.jpg" alt="Meditation App" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Meditation App</h3>
+                        <p class="portfolio-category">App</p>
+                    </div>
+                </li>
+                <li class="portfolio-item">
+                    <img src="./images/taxi-service.jpg" alt="Taxi Service" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Taxi Service</h3>
+                        <p class="portfolio-category">Marketing</p>
+                    </div>
+                </li>
+                <li class="portfolio-item">
+                    <img src="./images/screen-illustrations.jpg" alt="Screen Illustrations" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Screen Illustrations</h3>
+                        <p class="portfolio-category">Design</p>
+                    </div>
+                </li>
+                <li class="portfolio-item">
+                    <img src="./images/online-courses.jpg" alt="Online Courses" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Online Courses</h3>
+                        <p class="portfolio-category">E-learning</p>
+                    </div>
                 </li>
             </ul>
         </section>
