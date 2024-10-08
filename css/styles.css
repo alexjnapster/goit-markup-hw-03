@@ -25,19 +25,6 @@ body {
     padding: 0 15px;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .header {
     border-bottom: 1px solid var(--cornflower);
 }
@@ -54,26 +41,6 @@ body {
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
-    margin-right: 76px;
-    text-decoration: none;
-}
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
-    margin-right: 76px;
-    text-decoration: none;
-}
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -114,31 +81,12 @@ body {
     color: var(--ocean);
 }
 
-.nav-link.active {
-    color: var(--ocean);
-}
-
-.nav-link.active::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: var(--ocean);
-    border-radius: 2px;
-    width: 100%;
-}
-
 .address {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
-    text-align: left;
-    padding: 16px;
-    margin-bottom: 24px;
-}
-    font-style: normal;
+    color: var(--slate);
 }
 
 .address-list {
@@ -165,12 +113,6 @@ body {
 .hero {
     background-color: var(--navy-blue);
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 .hero-title {
@@ -182,56 +124,8 @@ body {
     max-width: 496px;
     margin: 0 auto 48px;
 }
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--white);
-    max-width: 496px;
-    margin: 0 auto 48px;
-}
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--white);
-    max-width: 496px;
-    margin: 0 auto 48px;
-}
 
 .hero-button {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    margin: 0 auto;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-    background-color: var(--iris);
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--white);
-    cursor: pointer;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    margin: 0 auto;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
     background-color: var(--iris);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -251,8 +145,6 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #404BBF;
-}
     background-color: var(--ocean);
 }
 
@@ -273,20 +165,6 @@ body {
 }
 
 .advantages-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-    margin-bottom: 8px;
-}
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-    margin-bottom: 8px;
-}
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -363,7 +241,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navy-blue);
+    color: var (--navy-blue);
     margin-bottom: 72px;
 }
 
@@ -421,7 +299,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-}
     display: inline-block;
     margin-bottom: 16px;
 }
