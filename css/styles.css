@@ -190,7 +190,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navy-blue);
+    color: var (--navy-blue);
     margin-bottom: 72px;
 }
 
@@ -232,7 +232,7 @@ body {
 }
 
 .portfolio {
-    padding: 120px 0 120px 0;
+    padding: 120px 0;
 }
 
 .portfolio-title {
@@ -241,7 +241,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var (--navy-blue);
+    color: var(--navy-blue);
     margin-bottom: 72px;
 }
 
