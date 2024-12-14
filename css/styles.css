@@ -25,10 +25,6 @@ body {
     color: #2e2f42;
     text-decoration: none;
 }
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bdf;
-}
 .contact-info {
     font-style: normal;
 }
@@ -38,10 +34,6 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-}
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bdf;
 }
 .first-section {
     background-color: #2e2f42;
@@ -67,8 +59,6 @@ body {
     cursor: pointer;
     border: none;
     margin: 20px auto;
-    display: block;
-    padding: 10px 20px;
     text-decoration: none;
     text-align: center;
 }
@@ -87,8 +77,8 @@ body {
 }
 .second-section-list {
     list-style-type: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 .second-section-item-heading {
     font-weight: 500;
@@ -124,8 +114,8 @@ body {
 }
 .third-section-list {
     list-style-type: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -138,8 +128,8 @@ body {
 }
 .fourth-section-list {
     list-style-type: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 .fourth-section-list li {
     background-color: #FFFFFF;
