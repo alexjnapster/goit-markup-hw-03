@@ -1,258 +1,113 @@
 :root {
-    --f4f4fd: #f4f4fd; /* Light background color */
-    --main-text-color: #434455; /* Main text color */
-    --main-bg-color: #ffffff; /* Main background color */
-    --primary-color: #4d5ae5; /* Primary color (e.g., buttons) */
-    --hover-color: #404bbf; /* Hover color */
-    --dark-color: #2e2f42; /* Darker text color */
-    --logo-color: #4d5ae5; /* Logo color */
-    --section-bg-color: #f4f4fd; /* Section background color */
-    --heading-color: #2e2f42; /* Heading text color */
-    --paragraph-color: #434455; /* Paragraph text color */
-    --footer-bg-color: #2e2f42; /* Footer background color */
-    --footer-paragraph-color: #f4f4fd; /* Footer paragraph text color */
+    --main-bg-color: #ffffff;
+    --text-color: #434455;
+    --primary-color: #4d5ae5;
+    --hover-color: #404bbf;
+    --dark-color: #2e2f42;
+    --section-bg-color: #f4f4fd;
+    --heading-color: #2e2f42;
+    --paragraph-color: #434455;
+    --list-bg-color: #ffffff;
 }
 
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500&display=swap');
-
-/* Base body styling */
+/* General Body */
 body {
     font-family: "Roboto", sans-serif;
-    margin: 0;
-    color: var(--main-text-color);
+    color: var(--text-color);
     background-color: var(--main-bg-color);
-}
-
-/* Remove default list styles */
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
     margin: 0;
 }
 
-/* Logo (Header & Footer) */
-.logo-link {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--logo-color);
-    text-decoration: none;
-}
-
+/* Header */
 .logo-link span {
-    color: var(--f4f4fd);
-}
-
-/* Navigation Links */
-.nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--dark-color);
-    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+.nav-link:hover {
     color: var(--hover-color);
 }
 
 /* First Section */
 .first-section {
-    background-color: var(--section-bg-color);
-    padding: 20px;
+    background-color: var(--dark-color);
+    text-align: center;
+    padding: 50px;
 }
 
 .hero-title {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
     color: var(--main-bg-color);
-    margin: 0;
+    font-size: 56px;
 }
 
 .hero-btn {
     background-color: var(--primary-color);
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     color: var(--main-bg-color);
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
     padding: 10px 20px;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:hover {
     background-color: var(--hover-color);
 }
 
 /* Second Section */
 .second-section {
-    background-color: var(--main-bg-color);
-    padding: 20px;
+    background-color: var(--section-bg-color);
+    padding: 50px;
 }
 
 .second-section-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
     color: var(--heading-color);
-    margin: 0 0 16px 0;
+    font-size: 36px;
 }
 
 .second-section-paragraph {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--paragraph-color);
-    margin: 0 0 16px 0;
+    font-size: 16px;
 }
 
 /* Third Section */
 .third-section {
     background-color: var(--section-bg-color);
-    padding: 20px;
+    padding: 50px;
 }
 
 .third-section-heading {
-    font-family: "Roboto", sans-serif;
+    color: var(--heading-color);
     font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--heading-color);
-    margin: 20px 0;
-}
-
-.third-section-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: var(--main-bg-color);
-}
-
-.third-section-list-item {
-    margin-bottom: 16px;
-}
-
-.third-section-list-item-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--heading-color);
-    margin: 0;
-}
-
-.third-section-list-item-paragraph {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--paragraph-color);
-    margin: 0 0 10px 0;
 }
 
 /* Fourth Section */
-.fourth-section {
-    background-color: var(--section-bg-color);
-    padding: 20px;
-}
-
-.fourth-section-heading {
-    font-family: "Roboto", sans-serif;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--heading-color);
-    margin: 20px 0;
-}
-
-.fourth-section-paragraph {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--paragraph-color);
-    margin: 0 0 16px 0;
+.fourth-section-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 
 .fourth-section-img {
-    display: block;
-    max-width: 100%;
+    width: 100%;
+    max-width: 300px;
     height: auto;
+    border-radius: 8px;
 }
 
-.fourth-section-img-wrapper {
-    width: 360px;
-    margin: 0 auto;
+.fourth-section-list-item-heading {
+    font-size: 20px;
+    color: var(--heading-color);
 }
 
-/* Footer */
-.footer {
-    background-color: var(--footer-bg-color);
-    padding: 20px;
-}
-
-.footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--logo-color);
-    margin: 0;
-    text-decoration: none;
-}
-
-.footer-logo span {
-    color: var(--footer-paragraph-color);
-}
-
-.footer-paragraph {
-    font-family: "Roboto", sans-serif;
+.fourth-section-list-item-paragraph {
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--footer-paragraph-color);
-    margin: 16px 0 0 0;
-}
-
-.footer-link {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--footer-paragraph-color);
-    text-decoration: none;
-}
-
-.footer-link:hover,
-.footer-link:focus {
-    color: var(--hover-color);
+    color: var(--paragraph-color);
 }
