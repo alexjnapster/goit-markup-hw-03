@@ -1,143 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Fixes</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
+<!-- Header Section -->
 <header>
     <nav>
-        <!-- Logo -->
         <a href="./index.html" class="logo-link">
-            WEB<span class="logo-part">STUDIO</span>
+            <span class="logo-part">Studio</span>
         </a>
-
-        <!-- Navigation List -->
-        <ul class="nav-list">
-            <li class="nav-item">
-                <a href="./index.html" class="nav-link">Studio</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link">Contacts</a>
-            </li>
+        <ul>
+            <li><a href="#section1" class="nav-link">Home</a></li>
+            <li><a href="#section2" class="nav-link">About</a></li>
+            <li><a href="#section3" class="nav-link">Services</a></li>
+            <li><a href="#section4" class="nav-link">Contact</a></li>
         </ul>
     </nav>
-
-    <!-- Address/Contact Info -->
-    <address class="contact-info">
-        <ul class="contact-list">
-            <li class="contact-item">
-                <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
-            </li>
-            <li class="contact-item">
-                <a href="tel:+11000111111" class="contact-link">+11 (000) 111-11-11</a>
-            </li>
-        </ul>
-    </address>
 </header>
 
-<main>
-    <!-- First Section (Hero) -->
-    <section>
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="hero-btn">Order Service</button>
-    </section>
+<!-- First Section -->
+<section id="section1" class="first-section">
+    <h1 class="hero-title">Welcome to Our Studio</h1>
+    <button class="hero-btn">Get Started</button>
+</section>
 
-    <!-- Second Section (Advantages) -->
-    <section>
-        <h2 class="section-title">Our Advantages</h2>
-        <ul class="item-list">
-            <li class="item-block">
-                <h3 class="item-heading">Strategy</h3>
-                <p class="item-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-            </li>
-            <li class="item-block">
-                <h3 class="item-heading">Punctuality</h3>
-                <p class="item-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-            </li>
-            <li class="item-block">
-                <h3 class="item-heading">Diligence</h3>
-                <p class="item-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-            </li>
-            <li class="item-block">
-                <h3 class="item-heading">Technologies</h3>
-                <p class="item-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-            </li>
-        </ul>
-    </section>
+<!-- Second Section -->
+<section id="section2" class="second-section">
+    <h2 class="second-section-heading">About Us</h2>
+    <p class="second-section-paragraph">We are a team of professionals committed to delivering the best results.</p>
+    <ul class="second-section-list">
+        <li>
+            <h3 class="second-section-heading">Our Mission</h3>
+            <p class="second-section-paragraph">To provide excellent services to our clients worldwide.</p>
+        </li>
+        <li>
+            <h3 class="second-section-heading">Our Vision</h3>
+            <p class="second-section-paragraph">To be a leader in the industry, setting new standards of quality and professionalism.</p>
+        </li>
+    </ul>
+</section>
 
-    <!-- Third Section (Team) -->
-    <section>
-        <h2 class="section-title">Our Team</h2>
-        <ul class="item-list">
-            <li class="item-block" style="background-color:#ffffff;">
-                <h3 class="item-heading">Mark Guerrero</h3>
-                <p class="item-text">Product Designer</p>
-            </li>
-            <li class="item-block" style="background-color:#ffffff;">
-                <h3 class="item-heading">Tom Ford</h3>
-                <p class="item-text">Frontend Developer</p>
-            </li>
-            <li class="item-block" style="background-color:#ffffff;">
-                <h3 class="item-heading">Camila Garcia</h3>
-                <p class="item-text">Marketing</p>
-            </li>
-            <li class="item-block" style="background-color:#ffffff;">
-                <h3 class="item-heading">Daniel Wilson</h3>
-                <p class="item-text">UI Designer</p>
-            </li>
-        </ul>
-    </section>
+<!-- Third Section -->
+<section id="section3" class="third-section">
+    <h2 class="third-section-heading">Our Services</h2>
+    <ul class="third-section-list">
+        <li class="third-section-list-item">
+            <h3 class="third-section-list-item-heading">Web Development</h3>
+            <p class="third-section-list-item-paragraph">Building high-quality websites tailored to your needs.</p>
+        </li>
+        <li class="third-section-list-item">
+            <h3 class="third-section-list-item-heading">Digital Marketing</h3>
+            <p class="third-section-list-item-paragraph">Helping you reach your audience effectively and grow your business.</p>
+        </li>
+        <li class="third-section-list-item">
+            <h3 class="third-section-list-item-heading">Graphic Design</h3>
+            <p class="third-section-list-item-paragraph">Creating stunning visuals that captivate and engage your audience.</p>
+        </li>
+    </ul>
+</section>
 
-    <!-- Fourth Section (Portfolio) -->
-    <section>
-        <h2 class="section-title">Our Portfolio</h2>
-        <ul class="item-list">
-            <li class="item-block">
-                <img src="./images/bankingapp.jpeg" alt="Banking App" width="360" />
-                <h3 class="item-heading">Banking App</h3>
-                <p class="item-text">App</p>
-            </li>
-            <li class="item-block">
-                <img src="./images/cashlesspayment.jpeg" alt="Cashless Payment" width="360" />
-                <h3 class="item-heading">Cashless Payment</h3>
-                <p class="item-text">Marketing</p>
-            </li>
-            <li class="item-block">
-                <img src="./images/meditationapp.jpeg" alt="Meditation App" width="360" />
-                <h3 class="item-heading">Meditation App</h3>
-                <p class="item-text">App</p>
-            </li>
-            <li class="item-block">
-                <img src="./images/taxiservice.jpeg" alt="Taxi Service" width="360" />
-                <h3 class="item-heading">Taxi Service</h3>
-                <p class="item-text">Marketing</p>
-            </li>
-            <li class="item-block">
-                <img src="./images/screenillustrations.jpeg" alt="Screen Illustrations" width="360" />
-                <h3 class="item-heading">Screen Illustrations</h3>
-                <p class="item-text">Design</p>
-            </li>
-            <li class="item-block">
-                <img src="./images/onlinecourses.jpeg" alt="Online Courses" width="360" />
-                <h3 class="item-heading">Online Courses</h3>
-                <p class="item-text">Marketing</p>
-            </li>
-        </ul>
-    </section>
-</main>
+<!-- Fourth Section -->
+<section id="section4" class="fourth-section">
+    <h2 class="fourth-section-heading">Contact Us</h2>
+    <p class="fourth-section-paragraph">We’d love to hear from you! Feel free to reach out to us through any of the following channels:</p>
+    <div class="fourth-section-img-wrapper">
+        <img src="./images/contact.jpg" alt="Contact Us" class="fourth-section-img">
+    </div>
+</section>
 
-<footer>
-    <a href="./index.html" class="logo-link">
-        WEB<span class="logo-footer-part">STUDIO</span>
+<!-- Footer -->
+<footer class="footer">
+    <a href="./index.html" class="footer-logo">
+        <span class="logo-part">Studio</span>
     </a>
-    <p class="footer-text">Increases the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    <p class="footer-paragraph">© 2024 Studio. All rights reserved.</p>
+    <a href="#section1" class="footer-link">Back to top</a>
 </footer>
 
 </body>
