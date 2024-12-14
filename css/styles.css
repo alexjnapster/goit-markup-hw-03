@@ -22,7 +22,6 @@ body {
     padding: 0 15px;
 }
 
-/* Стилі для логотипу */
 .logo, .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -76,7 +75,6 @@ body {
     color: var(--ocean);
 }
 
-/* Перша секція */
 .hero {
     background-color: var(--navy-blue);
     padding: 120px 0;
@@ -109,7 +107,6 @@ body {
     background-color: var(--ocean);
 }
 
-/* Секція з перевагами */
 .advantages {
     padding: 120px 0;
 }
@@ -129,7 +126,6 @@ body {
     color: var(--slate);
 }
 
-/* Секція з командою */
 .team {
     background-color: var(--cloud);
     padding: 120px 0;
@@ -163,7 +159,6 @@ body {
     color: var(--slate);
 }
 
-/* Секція з портфоліо */
 .portfolio {
     padding: 120px 0;
 }
@@ -192,7 +187,6 @@ body {
     color: var(--slate);
 }
 
-/* Футер */
 .footer {
     background-color: var(--navy-blue);
     padding: 100px 0;
