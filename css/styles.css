@@ -37,10 +37,12 @@ body {
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
-    overflow: hidden;
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* Header */
@@ -135,8 +137,10 @@ body {
 }
 
 .hero-button {
-    display: inline-block;
+    display: block; 
     min-width: 169px;
+    height: 56px;
+    margin: 0 auto;
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
