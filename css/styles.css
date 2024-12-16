@@ -17,10 +17,18 @@ a {
     text-decoration: none;
 }
 
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* Header */
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 40px;
 }
 
@@ -33,6 +41,10 @@ a {
     letter-spacing: 0.03em;
 }
 
+.logo-part {
+    color: #2E2F42;
+}
+
 .nav-list {
     display: flex;
     gap: 20px;
@@ -40,6 +52,7 @@ a {
 
 .nav-link {
     color: #2E2F42;
+    font-weight: 500;
 }
 
 .nav-link:hover {
@@ -57,7 +70,7 @@ a {
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -66,6 +79,95 @@ a {
     color: #FFFFFF;
     padding: 16px 32px;
     border-radius: 8px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+
+/* Benefits Section */
+.benefits-section {
+    padding: 60px 0;
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.benefits-item {
+    flex: 1;
+    text-align: center;
+}
+
+.benefits-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: #2E2F42;
+}
+
+.benefits-text {
+    font-size: 16px;
+    color: #434455;
+}
+
+/* Team Section */
+.team-section {
+    background-color: #F4F4FD;
+    padding: 60px 0;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.team-item {
+    text-align: center;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0 5px;
+    color: #2E2F42;
+}
+
+.team-text {
+    font-size: 16px;
+    color: #434455;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    padding: 60px 0;
+}
+
+.portfolio-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.portfolio-item {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0;
+    color: #2E2F42;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    color: #434455;
 }
 
 /* Footer */
@@ -74,4 +176,9 @@ a {
     color: #F4F4FD;
     text-align: center;
     padding: 40px;
+}
+
+.footer-text {
+    margin-top: 10px;
+    font-size: 16px;
 }
