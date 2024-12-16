@@ -4,6 +4,17 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* Header */
@@ -19,189 +30,112 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
+    color: #4D5AE5;
 }
 
 .logo-part {
-    color: #2e2f42;
+    color: #2E2F42;
 }
 
-/* Navigation */
 .nav-list {
     display: flex;
     gap: 20px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .nav-link {
-    font-weight: 500;
+    color: #2E2F42;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;
+    font-weight: 500;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
+.nav-link:hover {
+    color: #404BBF;
 }
 
 /* Hero Section */
-.first-section {
-    background-color: #2e2f42;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.hero-section {
+    background-color: #2E2F42;
+    color: #FFFFFF;
     text-align: center;
-    padding: 100px 20px;
-    gap: 20px;
+    padding: 120px 20px;
 }
 
 .hero-title {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
-    color: #ffffff;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
 .hero-btn {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    background-color: #4d5ae5;
-    text-decoration: none;
-    padding: 15px 30px;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    padding: 16px 32px;
     border-radius: 8px;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
-    background-color: #404bbf;
+.hero-btn:hover {
+    background-color: #404BBF;
 }
 
 /* Benefits Section */
-.second-section {
+.benefits-section {
     padding: 60px 20px;
     text-align: center;
 }
 
-.second-section-heading {
-    font-family: "Raleway", sans-serif;
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 30px;
-}
-
-.second-section-list {
+.benefits-list {
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
     justify-content: center;
-    list-style: none;
-    padding: 0;
+    gap: 30px;
 }
 
-.benefit-item {
-    text-align: left;
+.benefits-list li {
     width: 240px;
-}
-
-.benefit-title {
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 10px;
-}
-
-.benefit-description {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
+    text-align: left;
 }
 
 /* Team Section */
-.third-section {
+.team-section {
     background-color: #F4F4FD;
     padding: 60px 20px;
     text-align: center;
 }
 
-.third-section-heading {
-    font-family: "Raleway", sans-serif;
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 1.11;
-    color: #2e2f42;
-    margin-bottom: 30px;
-}
-
 .team-list {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
+    justify-content: center;
+    gap: 30px;
 }
 
-.team-item {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 20px;
-    width: 240px;
-}
-
-.team-image {
+.team-list img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    margin-bottom: 15px;
-}
-
-.team-name {
-    font-family: "Raleway", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    color: #2e2f42;
-    margin-bottom: 5px;
-}
-
-.team-role {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    color: #434455;
+    margin-bottom: 10px;
 }
 
 /* Portfolio Section */
-.fourth-section {
+.portfolio-section {
     padding: 60px 20px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
     text-align: center;
 }
 
-.fourth-section-heading {
-    font-family: "Raleway", sans-serif;
-    font-size: 36px;
-    font-weight: 500;
-    line
+.portfolio-grid img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 20px;
+}
