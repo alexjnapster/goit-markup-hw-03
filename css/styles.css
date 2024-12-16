@@ -1,4 +1,3 @@
-/* Reset margins, padding, and list styles */
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -91,8 +90,7 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
-    position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 0.3s ease-in-out;
 }
 
 .nav-link:hover,
@@ -100,21 +98,6 @@ body {
     color: #404BBF;
 }
 
-.nav-link.active {
-    color: #404BBF;
-}
-
-.nav-link.active::after {
-    content: "";
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #404BBF;
-}
-
-/* Contact Info */
 .contact-info {
     margin-left: auto;
     font-style: normal;
@@ -131,7 +114,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 0.3s ease-in-out;
 }
 
 .contact-link:hover,
@@ -141,10 +124,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images/hero-bg.jpg");
-    background-size: cover;
-    background-position: center;
+    background-color: #2E2F42;
     padding: 188px 0;
     text-align: center;
 }
@@ -159,9 +139,10 @@ body {
 }
 
 .hero-button {
-    display: inline-block;
+    display: block;
     min-width: 169px;
     height: 56px;
+    margin: 0 auto;
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
@@ -169,9 +150,10 @@ body {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 0.3s ease-in-out;
 }
 
 .hero-button:hover,
@@ -187,37 +169,36 @@ body {
 
 .benefits-item {
     width: calc((100% - 72px) / 4);
-    text-align: center;
-}
-
-.benefits-icon {
-    width: 64px;
-    height: 64px;
-    margin-bottom: 16px;
-    fill: #2E2F42;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.benefits-item:hover .benefits-icon {
-    fill: #4D5AE5;
 }
 
 .benefits-title {
     margin-bottom: 8px;
-    font-size: 20px;
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .benefits-text {
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    letter-spacing: 0.02em;
 }
 
 /* Team Section */
 .team {
     background-color: #F4F4FD;
+}
+
+.section-title {
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 
 .team-list {
@@ -226,34 +207,33 @@ body {
 }
 
 .team-item {
+    width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
-    text-align: center;
     border-radius: 0 0 4px 4px;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team-item:hover {
-    box-shadow: 0px 4px 4px rgba(46, 47, 66, 0.1),
-    0px 4px 6px rgba(46, 47, 66, 0.1);
+    overflow: hidden;
 }
 
 .team-content {
     padding: 32px 0;
+    text-align: center;
 }
 
 .team-member {
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .team-position {
     font-size: 16px;
-    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Portfolio Section */
@@ -265,10 +245,29 @@ body {
 
 .portfolio-item {
     width: calc((100% - 48px) / 3);
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: #FFFFFF;
+}
+
+.portfolio-item-img-wrapper {
     position: relative;
     overflow: hidden;
-    background-color: #FFFFFF;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    aspect-ratio: 16 / 9;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-content {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    flex: 1;
 }
 
 .portfolio-item:hover {
@@ -277,45 +276,41 @@ body {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-overlay {
-    position: absolute;
-    bottom: -100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(46, 47, 66, 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.portfolio-title {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
-.portfolio-item:hover .portfolio-overlay {
-    bottom: 0;
-}
-
-.portfolio-overlay-text {
-    color: #FFFFFF;
+.portfolio-text {
     font-size: 16px;
-    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* Footer */
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
-    text-align: center;
-    color: #F4F4FD;
 }
 
 .footer-logo {
-    font-size: 18px;
+    display: inline-block;
     margin-bottom: 16px;
+}
+
+.logo-light {
+    color: #F4F4FD;
 }
 
 .footer-text {
     max-width: 264px;
-    margin: 0 auto;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
