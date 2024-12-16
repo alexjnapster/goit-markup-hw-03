@@ -47,6 +47,10 @@ a {
     color: #2E2F42;
 }
 
+.header .span-nu {
+    color: #2E2F42;
+}
+
 /* Navigation */
 .nav-list {
     display: flex;
