@@ -7,11 +7,6 @@ body {
     line-height: 1.5;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
 ul {
     list-style: none;
     padding: 0;
@@ -22,21 +17,15 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 40px;
-    background-color: #FFFFFF;
-    border-bottom: 1px solid #E0E0E0;
 }
 
 .logo-link {
-    font-family: "Raleway", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
-}
-
-.logo-part {
-    color: #2E2F42;
 }
 
 .nav-list {
@@ -45,110 +34,35 @@ ul {
 }
 
 .nav-link {
-    font-size: 16px;
-    font-weight: 500;
     color: #2E2F42;
 }
 
-.contact-info p {
-    margin: 0;
-    font-size: 14px;
+.nav-link:hover {
+    color: #404BBF;
 }
 
 /* Hero Section */
 .hero-section {
+    text-align: center;
     background-color: #2E2F42;
     color: #FFFFFF;
-    text-align: center;
     padding: 120px 20px;
 }
 
 .hero-title {
     font-size: 56px;
-    font-weight: 700;
-    margin-bottom: 20px;
+    line-height: 1.07;
 }
 
 .hero-btn {
-    display: inline-block;
     background-color: #4D5AE5;
-    color: #FFFFFF;
     padding: 16px 32px;
-    font-size: 16px;
-    font-weight: 500;
-    border-radius: 8px;
-}
-
-.hero-btn:hover {
-    background-color: #404BBF;
-}
-
-/* Benefits Section */
-.benefits-section {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.benefits-list {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.benefits-list li {
-    width: 220px;
-    text-align: left;
-}
-
-/* Team Section */
-.team-section {
-    background-color: #F4F4FD;
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.team-list {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.team-list img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-/* Portfolio Section */
-.portfolio-section {
-    padding: 60px 20px;
-}
-
-.portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    text-align: center;
-}
-
-.portfolio-grid img {
-    width: 100%;
-    border-radius: 8px 8px 0 0;
-}
-
-.portfolio-grid h3, .portfolio-grid p {
-    margin: 10px;
 }
 
 /* Footer */
 .footer {
     background-color: #2E2F42;
-    color: #FFFFFF;
-    text-align: center;
+    color: #F4F4FD;
     padding: 40px;
-}
-
-.footer .logo-link {
-    color: #4D5AE5;
+    text-align: center;
 }
